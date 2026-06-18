@@ -162,7 +162,7 @@ export default function About() {
             }}
           >
             <img
-              src="/portrait.jpg"
+              src="/portrait.jpeg"
               alt="Abdul Wahid portrait"
               style={{
                 width: '100%',

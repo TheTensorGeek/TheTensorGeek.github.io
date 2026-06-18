@@ -6,18 +6,39 @@ gsap.registerPlugin(ScrollTrigger);
 
 const PROJECTS = [
   {
+    title: 'Embodied AI & Robust Quadruped Locomotion',
+    description: 'Developed a unified framework integrating spatially intelligent Vision-Language Models as high-level planners with robust joint-control policies for quadrupeds. Engineered reliable sim-to-real transfer via domain randomization and built World Models for long-horizon predictive accuracy.',
+    tags: ['Reinforcement Learning', 'World Models', 'Sim-to-Real'],
+    image: '/project_quadruped.png',
+    imageLeft: true,
+  },
+  {
+    title: 'Spatial Intelligence in Vision-Language Models',
+    description: 'Systematically evaluated and benchmarked spatial reasoning capabilities in VLMs. Designed diagnostic benchmarks targeting geometric relations, viewpoint consistency, and compositional reasoning to translate insights into improvement strategies for embodied AI foundation models.',
+    tags: ['VLMs', 'Evaluation', 'Embodied AI'],
+    image: '/project_vlm.png',
+    imageLeft: false,
+  },
+  {
+    title: 'VLM-based Planners & Multi-Embodiment Control',
+    description: 'Integrated ROS-MCP with VLMs for autonomous navigation and mapping in Gazebo. Developed adaptable multi-skill joint control policies deployed across diverse embodiments including Anymal, Spot quadrupeds, and H1 humanoids.',
+    tags: ['ROS2', 'Gazebo', 'Multi-Embodiment'],
+    image: '/project_planner.png',
+    imageLeft: true,
+  },
+  {
     title: 'Machine Vision for Computer-Assisted Surgery',
     description: 'Developed machine vision-based registration methods for cranial applications in image-guided surgery at Stryker, enhancing surgical precision through automated stereo camera calibration.',
     tags: ['Python', 'OpenCV', 'Robotics'],
     image: '/project-surgery.jpg',
-    imageLeft: true,
+    imageLeft: false,
   },
   {
     title: '2D-2D Registration for Robotic Spine Surgery',
     description: 'Engineered robust registration algorithms for robotic-assisted spinal interventions at HTIC, IIT-Madras, focusing on high-accuracy clinical outcomes and real-time performance.',
     tags: ['C++', 'Computer Vision', 'Medical Imaging'],
     image: '/project-spine.jpg',
-    imageLeft: false,
+    imageLeft: true,
   },
 ];
 

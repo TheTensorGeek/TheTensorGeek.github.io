@@ -6,8 +6,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const SOCIAL_LINKS = [
   { label: 'GitHub', href: 'https://github.com/TheTensorGeek' },
-  { label: 'LinkedIn', href: 'https://linkedin.com' },
-  { label: 'Google Scholar', href: 'https://scholar.google.com' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/abdul--wahid/' },
+  { label: 'Google Scholar', href: 'https://scholar.google.com/citations?user=Z6AEI5AAAAAJ&hl=en' },
+  { label: 'X (Twitter)', href: 'https://x.com/TheTensorGeek' },
 ];
 
 export default function Contact() {
@@ -83,7 +84,7 @@ export default function Contact() {
 
           <div style={{ marginBottom: 16 }}>
             <a
-              href="mailto:abdul.wahid@plaksha.edu.in"
+              href="mailto:abdul.wahid@alumni.iitm.ac.in"
               style={{
                 fontFamily: "'Geist Mono', monospace",
                 fontSize: 14,
@@ -94,7 +95,7 @@ export default function Contact() {
               onMouseEnter={(e) => (e.currentTarget.style.textDecoration = 'underline')}
               onMouseLeave={(e) => (e.currentTarget.style.textDecoration = 'none')}
             >
-              abdul.wahid@plaksha.edu.in
+              abdul.wahid@alumni.iitm.ac.in
             </a>
           </div>
 
